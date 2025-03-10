@@ -1,0 +1,2 @@
+<script src="<?php echo base_url('assets/plugins/moment/moment.min.js')?>"></script>
+<script src="<?php echo base_url('assets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js')?>"></script>

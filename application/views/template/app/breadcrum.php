@@ -1,0 +1,25 @@
+<!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper bg-sky">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-4 mt-4">
+          <div class="col-sm-6">
+            <h1 class="m-0"><?php echo $title ?></h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <?php if($thisPageLevel==='1'): ?>
+                  <li class="breadcrumb-item"><a href="adashboard">Home</a></li>
+                  <li class="breadcrumb-item active"><?php echo $title ?></li>
+                <?php else: ?>
+                  <li class="breadcrumb-item"><a href="adashboard" tabindex="-1">Home</a></li>
+                  <li class="breadcrumb-item"><?php echo $thisPageMain ?></li>
+                  <li class="breadcrumb-item active"><?php echo $title ?></li>
+                <?php endif ?>              
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
